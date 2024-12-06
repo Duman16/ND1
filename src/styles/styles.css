@@ -1,0 +1,79 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Стиль для компонента Header */
+  .header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .header ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  /* Стиль для компонента Spinner */
+  .spinner {
+    text-align: center;
+    font-size: 2rem;
+    color: #888;
+  }
+  
+  /* Стиль для компонента ErrorIndicator */
+  .error-indicator {
+    text-align: center;
+    font-size: 1.5rem;
+    color: red;
+  }
+  
+  /* Стиль для компонента RandomPlanet */
+  .random-planet {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .random-planet h3 {
+    font-size: 1.8rem;
+  }
+  
+  .random-planet p {
+    font-size: 1.2rem;
+  }
+  
+  /* Стиль для компонента People */
+  .people-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .people-list li {
+    padding: 10px;
+    font-size: 1.4rem;
+    background-color: #efefef;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  /* Стиль для компонента Loading */
+  .loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #777;
+  }
+  
